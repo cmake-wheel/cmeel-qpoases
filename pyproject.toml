@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "cmeel"
+requires = ["cmeel[build]"]
+
+[project]
+description = "cmeel distribution for qpOASES"
+license = "LGPL"
+name = "cmeel-qpoases"
+requires-python = ">= 3.8"
+version = "3.2.1"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/cmeel-qpoases"
+
+[tool.cmeel]
+configure-args = ["-DBUILD_SHARED_LIBS=ON"]
+source = "qpOASES"
+run-tests = false
+
+[tool.tomlsort]
+all = true
