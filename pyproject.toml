@@ -14,8 +14,8 @@ homepage = "https://github.com/cmake-wheel/cmeel-qpoases"
 
 [tool.cmeel]
 configure-args = ["-DBUILD_SHARED_LIBS=ON"]
-source = "qpOASES"
 run-tests = false
+source = "qpOASES"
 
 [tool.tomlsort]
 all = true
