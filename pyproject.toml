@@ -13,7 +13,7 @@ version = "3.2.1"
 homepage = "https://github.com/cmake-wheel/cmeel-qpoases"
 
 [tool.cmeel]
-build-number = 1
+build-number = 2
 configure-args = ["-DBUILD_SHARED_LIBS=ON"]
 has-sitelib = false
 run-tests = false
