@@ -12,8 +12,8 @@ Signed-off-by: Guilhem Saurel <guilhem.saurel@laas.fr>
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
 index 24c1a81..4ec78e3 100644
---- qpOASES//CMakeLists.txt
-+++ qpOASES//CMakeLists.txt
+--- qpOASES/CMakeLists.txt
++++ qpOASES/CMakeLists.txt
 @@ -29,7 +29,7 @@
  ##     Date:      2007-2017
  ##
